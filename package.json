@@ -1,0 +1,9 @@
+{
+  "name": "nonprofit-sms-template-registry",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "demo": "node src/example.ts", "test": "node --test src/sms_template_registry.test.ts", "typecheck": "tsc --noEmit" },
+  "dependencies": { "zod": "^3.24.1" },
+  "devDependencies": { "@types/node": "^22.10.0", "typescript": "^5.7.2" }
+}
